@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rakibul.DropDownExample">
+      <class name="rakibul.IframeHandling">
         <methods>
           <include name="start"/>
-          <include name="dropDownTest"/>
+          <include name="iframeTest"/>
           <include name="close"/>
         </methods>
-      </class> <!-- rakibul.DropDownExample -->
+      </class> <!-- rakibul.IframeHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

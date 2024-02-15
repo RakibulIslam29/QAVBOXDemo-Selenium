@@ -70,6 +70,13 @@ public class QAVBOXDemo extends BaseDriver {
         // Automation Tools
         WebElement automationSelect = driver.findElement(By.xpath("//option[@value='selenium']"));
         automationSelect.click();
+         
+        //Submit
+        WebElement submitButton = driver.findElement(By.xpath("//input[@type='submit']"));
+        submitButton.click();
+        
+        //Close the browser
+        driver.quit();
         
 	}
 
