@@ -24,8 +24,10 @@ public class IframeHandling extends BaseDriver{
 		
 		Thread.sleep(5000);
 		
+		WebElement allClasses = driver.findElement(By.xpath("//a[contains(text(),'All Classes')]"));
+		
+		allClasses.click();
+		
 	}
-
-
 
 }
